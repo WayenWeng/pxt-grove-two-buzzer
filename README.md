@@ -6,7 +6,7 @@ A PXT packet for Seeed Studio Grove Two Buzzer
 
 ```blocks
 // Create a module driver, specify the i2c address
-let buzzer = Grove_Two_Buzzer.create(DEVICE_ID_TYPE.GROVE_TWO_BUFFER_DEF_I2C_ADDR);
+let buzzer = Grove_Two_Buzzer.create(GROVE_TWO_BUZZER.DEF_I2C_ADDR);
 
 // Play tone by beats
 for(let i = 0; i < 22; i ++)
